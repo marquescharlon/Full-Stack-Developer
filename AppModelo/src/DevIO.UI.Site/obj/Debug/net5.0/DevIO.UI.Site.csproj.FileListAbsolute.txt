@@ -38,6 +38,5 @@ C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\bundleconfig.json
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\dotnet-bundle.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\NUglify.dll
-C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\ref\DevIO.UI.Site.dll
-C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\staticwebassets\DevIO.UI.Site.StaticWebAssets.xml
-C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\DevIO.UI.Site.csprojAssemblyReference.cache
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\DevIO.UI.Site.csproj.AssemblyReference.cache
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\refint\DevIO.UI.Site.dll

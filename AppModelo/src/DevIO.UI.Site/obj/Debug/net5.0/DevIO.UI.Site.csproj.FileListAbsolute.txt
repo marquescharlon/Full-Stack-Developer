@@ -38,7 +38,6 @@ C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\bundleconfig.json
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\dotnet-bundle.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\NUglify.dll
-C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\ref\DevIO.UI.Site.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\Humanizer.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -115,4 +114,9 @@ C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnaly
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Labs\AppModelo\src\DevIO.UI.Site\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\DevIO.UI.Site.csproj.AssemblyReference.cache
-C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\Razor\Areas\Produtos\Views\Cadastro\Index.cshtml.g.cs
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\refint\DevIO.UI.Site.dll
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\Razor\Modulos\Produtos\Views\Cadastro\Index.cshtml.g.cs
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\Razor\Modulos\Produtos\Views\_ViewStart.cshtml.g.cs
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\Razor\Modulos\Produtos\Views\Cadastro\Busca.cshtml.g.cs
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\Razor\Modulos\Vendas\Views\Pedidos\Index.cshtml.g.cs
+C:\Labs\AppModelo\src\DevIO.UI.Site\obj\Debug\net5.0\Razor\Modulos\Vendas\Views\Pedidos\_ViewStart.cshtml.g.cs

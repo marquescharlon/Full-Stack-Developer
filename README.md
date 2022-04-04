@@ -2,8 +2,8 @@
  Respositório para os projetos desenvolvidos no decorrer do curso no site https://desenvolvedor.io/
 
 ###### ASP.NET Core
-- [x] Iniciando com ASP.NET Core (100% Completo)
-- [ ] Dominando o ASP.NET MVC Core (42% Completo)
+- [x] ~Iniciando com ASP.NET Core **(100% Completo**~
+- [ ] Dominando o ASP.NET MVC Core **(42% Completo)**
 - [ ] REST com ASP.NET Core WebAPI
 - [ ] ASP.NET Core Enterprise Applications
 

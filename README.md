@@ -4,32 +4,32 @@
 ###### ASP.NET Core
 - [x] ~Iniciando com ASP.NET Core `(100% Completo)`~
 - [ ] Dominando o ASP.NET MVC Core `(42% Completo)`
-- [ ] REST com ASP.NET Core WebAPI
-- [ ] ASP.NET Core Enterprise Applications
+- [ ] REST com ASP.NET Core WebAPI `(0% Completo)`
+- [ ] ASP.NET Core Enterprise Applications `(0% Completo)`
 
 ###### MVC 5
-- [ ] Iniciando com ASP.NET MVC 5
-- [ ] Dominando o ASP.NET MVC 5
+- [ ] Iniciando com ASP.NET MVC 5 `(0% Completo)`
+- [ ] Dominando o ASP.NET MVC 5 `(0% Completo)`
 
 ###### Angular
-- [ ] Desenvolvimento SPA com Angular
-- [ ] Desenvolvimento Avançado em Angular
+- [ ] Desenvolvimento SPA com Angular `(0% Completo)`
+- [ ] Desenvolvimento Avançado em Angular `(0% Completo)`
 
 ###### Arquitetura
-- [ ] Dundamentos de Arquitetura de Software
-- [ ] Modelagem de Domínios Ricos
-- [ ] Dominando os Testes de Software
+- [ ] Dundamentos de Arquitetura de Software `(0% Completo)`
+- [ ] Modelagem de Domínios Ricos `(0% Completo)`
+- [ ] Dominando os Testes de Software `(0% Completo)`
 
 ###### Entity
-- [ ] Introdução ao Entity Framework Core
-- [ ] Dominando o Entity Framework Core
+- [ ] Introdução ao Entity Framework Core `(0% Completo)`
+- [ ] Dominando o Entity Framework Core `(0% Completo)`
 
 ###### Versionamento
-- [ ] Introdução ao DevOps
+- [ ] Introdução ao DevOps `(0% Completo)`
 
 ###### SQL
-- [ ] SQL para Desenvolvedores
+- [ ] SQL para Desenvolvedores `(0% Completo)`
 
 ###### Outros
-- [ ] Fundamentos de IdentityServer4
-- [ ] Fundamentos de Criptografia e Hashing
+- [ ] Fundamentos de IdentityServer4 `(0% Completo)`
+- [ ] Fundamentos de Criptografia e Hashing `(0% Completo)`

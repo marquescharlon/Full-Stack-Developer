@@ -39,7 +39,7 @@ namespace DevIO.UI.Site.Controllers
 
             
 
-            return View();
+            return View("_Layout");
         }
     }
 }

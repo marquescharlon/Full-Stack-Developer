@@ -1,0 +1,5 @@
+# Não está visualizando a page? Login/Logout
+- Adiciona a rota em Startup.cs: endpoints.MapRazorPages();
+
+# Não está acessando o maneger do Login?
+- Adiciona o services: services.AddMvc(options => options.EnableEndpointRouting = false);

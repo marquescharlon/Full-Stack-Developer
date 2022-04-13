@@ -161,3 +161,4 @@ C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Areas\Ident
 C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Home\Secret.cshtml.g.cs

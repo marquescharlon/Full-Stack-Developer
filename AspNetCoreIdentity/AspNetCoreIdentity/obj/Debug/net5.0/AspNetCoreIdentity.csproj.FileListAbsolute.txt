@@ -162,3 +162,5 @@ C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Areas\Ident
 C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Home\Secret.cshtml.g.cs
+C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\bin\Debug\net5.0\appsettings.Production.json
+C:\Labs\AspNetCoreIdentity\AspNetCoreIdentity\bin\Debug\net5.0\appsettings.Staging.json

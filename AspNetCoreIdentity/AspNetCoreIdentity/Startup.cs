@@ -19,6 +19,11 @@ namespace AspNetCoreIdentity
                 .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
 
+            if(hostEnvironment.IsProduction())
+            {
+                Builder.AddUserSecrets<Startup>();
+            }
+
             Configuration = Builder.Build();
         }
         

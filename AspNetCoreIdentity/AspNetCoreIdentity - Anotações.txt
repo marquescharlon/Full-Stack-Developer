@@ -8,3 +8,8 @@
 - Acessar "Immediate Window", definir o local do break point e digitar os comandos:
 -- User
 -- User.Claims.ToList()
+
+# Provedores de log de terceiros
+- https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/logging/?view=aspnetcore-6.0#third-party-logging-providers
+- (https://elmah.io/) é bom, porém, pago.
+- (https://kisslog.net/) é gratuito.

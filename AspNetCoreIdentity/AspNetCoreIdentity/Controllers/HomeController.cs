@@ -24,6 +24,7 @@ namespace AspNetCoreIdentity.Controllers
         [AllowAnonymous]
          public IActionResult Index()
         {
+            _logger.LogDebug("Hello world from .NET Core 5.x!");
             return View();
         }
 

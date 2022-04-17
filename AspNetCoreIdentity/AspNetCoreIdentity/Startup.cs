@@ -1,9 +1,13 @@
 using AspNetCoreIdentity.Config;
+using KissLog;
+using KissLog.AspNetCore;
+using KissLog.Formatters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace AspNetCoreIdentity
 {
@@ -30,11 +34,32 @@ namespace AspNetCoreIdentity
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-
+            
             services.AddIdentityConfig(Configuration);
             services.AddAuthorizationConfig();
             services.ResolveDependencies();
+
+            services.AddHttpContextAccessor();
+
+            services.AddScoped<IKLogger>((provider) => Logger.Factory.Get());
+
+            services.AddLogging(logging =>
+            {
+                logging.AddKissLog(options =>
+                {
+                    options.Formatter = (FormatterArgs args) =>
+                    {
+                        if (args.Exception == null)
+                            return args.DefaultValue;
+
+                        string exceptionStr = new ExceptionFormatter().Format(args.Exception, args.Logger);
+
+                        return string.Join(Environment.NewLine, new[] { args.DefaultValue, exceptionStr });
+                    };
+                });
+            });
+
+            services.AddControllersWithViews();
 
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
@@ -51,6 +76,11 @@ namespace AspNetCoreIdentity
                 app.UseStatusCodePagesWithRedirects("/erro/{0}");
                 app.UseHsts();
             }
+
+            app.UseKissLogMiddleware(options => {
+                LogConfig.ConfigureKissLog(options, Configuration);
+            });
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -58,6 +88,7 @@ namespace AspNetCoreIdentity
 
             app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {
@@ -67,5 +98,6 @@ namespace AspNetCoreIdentity
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
     }
 }

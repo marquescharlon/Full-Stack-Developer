@@ -3,7 +3,7 @@
 
 ###### ASP.NET Core
 - [x] ~Iniciando com ASP.NET Core `(100% Completo)`~
-- [ ] Dominando o ASP.NET MVC Core `(62% Completo)`
+- [ ] Dominando o ASP.NET MVC Core `(70% Completo)`
 - [ ] REST com ASP.NET Core WebAPI `(0% Completo)`
 - [ ] ASP.NET Core Enterprise Applications `(0% Completo)`
 

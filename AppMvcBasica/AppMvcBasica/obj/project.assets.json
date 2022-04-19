@@ -7493,7 +7493,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\10838493602\\.nuget\\packages\\": {}
+    "C:\\Users\\Marquescharlon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7501,11 +7502,15 @@
       "projectUniqueName": "C:\\Labs\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj",
       "projectName": "AppMvcBasica",
       "projectPath": "C:\\Labs\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj",
-      "packagesPath": "C:\\Users\\10838493602\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Marquescharlon\\.nuget\\packages\\",
       "outputPath": "C:\\Labs\\AppMvcBasica\\AppMvcBasica\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\10838493602\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marquescharlon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7568,12 +7573,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.16, 5.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7582,7 +7581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

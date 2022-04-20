@@ -1,7 +1,6 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
-namespace AppMvcBasica.Models
+namespace DevIO.Business.Models
 {
     public class Endereco : Entity
     {
@@ -16,7 +15,7 @@ namespace AppMvcBasica.Models
         public string Cep { get; set; }
 
         public string Bairro { get; set; }
-)]
+
         public string Cidade { get; set; }
 
         public string Estado { get; set; }

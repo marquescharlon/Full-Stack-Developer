@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X478KAEsnSbRXoCt8HI4FKNlvygHz2zL+Haq6kvU8F9qhsaokmyUmZtfeUn3OPCDtTiY2EQMJTj5IdzfYLpq8w==",
+  "dgSpecHash": "G3j1AhMKi8ODPgfUcpz6O7MFlsFcIDmLL4uaFn3Go+rFlIqVA/jlzzCqEe6MwJBMNBU91hmXZ11/yLXLOSZlWQ==",
   "success": true,
   "projectFilePath": "C:\\Labs\\Treinamento\\AppMvcBasica\\AppMvcBasica\\AppMvcBasica.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\10838493602\\.nuget\\packages\\bootstrap\\3.0.1\\bootstrap.3.0.1.nupkg.sha512",
     "C:\\Users\\10838493602\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\10838493602\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
     "C:\\Users\\10838493602\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",
     "C:\\Users\\10838493602\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.16\\microsoft.aspnetcore.cryptography.keyderivation.5.0.16.nupkg.sha512",
     "C:\\Users\\10838493602\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.16\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.16.nupkg.sha512",
@@ -136,7 +138,8 @@
     "C:\\Users\\10838493602\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\10838493602\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\10838493602\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\10838493602\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\10838493602\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\10838493602\\.nuget\\packages\\twitter.bootstrap\\3.0.1.1\\twitter.bootstrap.3.0.1.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,20 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Mappings\" />
     <Folder Include="Repository\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.16" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DevIO.Business\DevIO.Business.csproj" />
-  </ItemGroup>
-
 
 </Project>

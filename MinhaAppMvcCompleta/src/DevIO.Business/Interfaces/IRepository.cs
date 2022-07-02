@@ -10,7 +10,7 @@ namespace DevIO.Business.Interfaces
     // TEntity foi um nome qualquer
     // IDisposable é para obrigar o repositória fazer o disposable, liberado a memória
     // Ele também será específico, por isso, utilizamos o "where"
-    internal interface IRepository<TEntity> : IDisposable where TEntity : Entity
+    public interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
         Task Adicionar(TEntity entity);
         Task<TEntity> ObterPorId(Guid Id);

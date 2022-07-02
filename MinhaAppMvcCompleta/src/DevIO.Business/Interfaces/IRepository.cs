@@ -18,6 +18,7 @@ namespace DevIO.Business.Interfaces
         Task Atualizar(TEntity entity);
         Task Remover(Guid Id);
         Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicate);
+        Task<int> SaveChanges();
 
     }
 }

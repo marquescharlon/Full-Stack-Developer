@@ -50,15 +50,15 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -66,11 +66,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.25, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "automapper.extensions.microsoft.dependencyinjection": {
               "target": "Package",
@@ -203,15 +209,15 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.26, )"
+              "version": "[3.1.15, )"
             }
           },
           "imports": [

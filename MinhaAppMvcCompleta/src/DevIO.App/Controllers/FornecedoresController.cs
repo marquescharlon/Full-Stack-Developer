@@ -9,6 +9,7 @@ using DevIO.Business.Models;
 
 namespace DevIO.App.Controllers
 {
+
     public class FornecedoresController : Controller
     {
         private readonly IFornecedorRepository _fornecedorRepository;

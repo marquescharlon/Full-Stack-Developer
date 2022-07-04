@@ -8413,8 +8413,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marqu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\10838493602\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -8422,15 +8421,11 @@
       "projectUniqueName": "C:\\Labs\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
       "projectName": "DevIO.App",
       "projectPath": "C:\\Labs\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
-      "packagesPath": "C:\\Users\\marqu\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\10838493602\\.nuget\\packages\\",
       "outputPath": "C:\\Labs\\MinhaAppMvcCompleta\\src\\DevIO.App\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\marqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\10838493602\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

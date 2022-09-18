@@ -1,33 +1,20 @@
-﻿using Microsoft.AspNetCore.Components;
-using Microsoft.EntityFrameworkCore;
-using MinhaAPICore.Model;
-
-namespace MinhaAPICore
+﻿namespace MinhaAPICore
 {
     public class Startup : IStartup
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+
         }
+
 
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApiDbContext>(optinos =>
-                optinos.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-            //{
-            //    optinos.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            //});
-
-
             services.AddControllers();
-
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
-
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment environment)
@@ -62,6 +49,7 @@ namespace MinhaAPICore
             if (startup == null) throw new ArgumentException("Classe Startup.cs inválida!");
 
             startup.ConfigureServices(WebAppBuilder.Services);
+
             var app = WebAppBuilder.Build();
             startup.Configure(app, app.Environment);
 

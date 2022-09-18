@@ -1,10 +1,13 @@
-﻿namespace MinhaAPICore
+﻿using Microsoft.EntityFrameworkCore;
+using MinhaAPICore.Model;
+
+namespace MinhaAPICore
 {
     public class Startup : IStartup
     {
         public Startup(IConfiguration configuration)
         {
-
+            Configuration = configuration;
         }
 
 
@@ -12,9 +15,13 @@
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApiDbContext>(optinos =>
+                optinos.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment environment)

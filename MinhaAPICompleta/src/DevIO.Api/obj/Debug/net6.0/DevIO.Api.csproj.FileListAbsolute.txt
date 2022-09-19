@@ -62,3 +62,7 @@ C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\obj\Debug\net6.0\refint\D
 C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.pdb
 C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\obj\Debug\net6.0\DevIO.Api.genruntimeconfig.cache
 C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\obj\Debug\net6.0\ref\DevIO.Api.dll
+C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\bin\Debug\net6.0\Humanizer.dll
+C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

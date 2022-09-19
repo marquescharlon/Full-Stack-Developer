@@ -1,4 +1,6 @@
 ﻿using DevIO.Api.Configuration;
+using DevIO.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevIO.Api
 {
@@ -14,6 +16,12 @@ namespace DevIO.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
+
+            services.AddDbContext<MeuDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+            
 
             services.AddControllers();
             services.AddEndpointsApiExplorer();

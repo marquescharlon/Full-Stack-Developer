@@ -13,3 +13,5 @@ C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.D
 C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
 C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
 C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
+C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.runtimeconfig.json
+C:\Full-Stack-Developer\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.genruntimeconfig.cache

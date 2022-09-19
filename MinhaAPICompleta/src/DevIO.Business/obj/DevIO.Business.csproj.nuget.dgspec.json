@@ -48,7 +48,13 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.4.0, )"
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
             }
           },
           "imports": [

@@ -1,4 +1,6 @@
-﻿namespace DevIO.Api
+﻿using DevIO.Api.Configuration;
+
+namespace DevIO.Api
 {
     public class Startup : IStartup
     {
@@ -11,9 +13,13 @@
         // Aqui você configura os serviços, seus middlewares
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+
+            services.ResolveDependencies();
         }
 
         // Aqui você diz que quer usar seus middlewares

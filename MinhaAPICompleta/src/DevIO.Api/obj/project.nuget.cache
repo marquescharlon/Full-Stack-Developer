@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZR361j/6Zt+gDY3rd6dHggX46/hIUxlc+AjZm18wR2M0NDdA0qnmv6bboPQUo4enmwbmuAcH/40vctvDSIj3mQ==",
+  "dgSpecHash": "ISyVOcLO1Sagu8M+Jgd4tiuAzVF0BMSYhVd/+PHkPzL85xO8B4GEbKHL4AvLm9Lkuhg78Nf9cnrhmr+b+PoCNw==",
   "success": true,
   "projectFilePath": "C:\\Full-Stack-Developer\\MinhaAPICompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marqu\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\marqu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\marqu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
-    "C:\\Users\\marqu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\marqu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\marqu\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\marqu\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\marqu\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

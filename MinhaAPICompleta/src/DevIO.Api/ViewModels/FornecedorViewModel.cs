@@ -19,7 +19,7 @@ namespace DevIO.Api.ViewModels
 
         public int TipoFornecedor { get; set; }
 
-        public EnderecoValidation Endereco { get; set; }
+        public EnderecoViewModel Endereco { get; set; }
 
         public bool Ativo { get; set; }
 

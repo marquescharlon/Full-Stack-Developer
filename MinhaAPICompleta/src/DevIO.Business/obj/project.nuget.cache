@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iZh1rHQ6eXnvpXTvO0KRnDhXbLIJy2pWJ+8oyB4u8T4Ng38k7XA0s+aAAByR0eVypPBGYeeNpX1QASW5t4g2wA==",
+  "success": true,
+  "projectFilePath": "C:\\Full-Stack-Developer\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marqu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

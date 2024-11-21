@@ -12,7 +12,7 @@
 - [ ] Dominando o ASP.NET MVC 5 `(0% Completo)`
 
 ###### Angular
-- [ ] ~Desenvolvimento SPA com Angular~ `(100% Completo)`
+- [x] ~Desenvolvimento SPA com Angular~ `(100% Completo)`
 - [ ] Desenvolvimento Avançado em Angular `(0% Completo)`
 
 ###### Arquitetura
@@ -25,7 +25,7 @@
 - [ ] Dominando o Entity Framework Core `(0% Completo)`
 
 ###### Versionamento
-- [ ] ~Introdução ao DevOps~ `(100% Completo)`
+- [x] ~Introdução ao DevOps~ `(100% Completo)`
 
 ###### SQL
 - [ ] SQL para Desenvolvedores `(0% Completo)`
